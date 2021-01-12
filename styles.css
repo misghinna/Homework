@@ -1,0 +1,51 @@
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2, h3, .tbl{
+  text-align: center;
+}
+td {
+  Width: 130px;
+}
+
+hr{
+  border: none;
+}
+
+.week {
+  height: 60px;
+}
+
+.r1, .r3, .r5, .r7 {
+  height: 60px;
+}
+
+.r0, .r2, .r4, .r6 {
+  height: 35px;
+}
+
+.theading {
+  background-color: #F2F2F2;
+  height: 40px;
+}
+
+.r0, .r1 {
+  background-color: #DEEAF6;
+}
+
+.r2, .r3 {
+  background-color: #F7CAAB;
+}
+
+.r4, .r5 {
+  background-color: #C5E0B3;
+}
+
+.r6, .r7 {
+  background-color: #FFE59A;
+}
