@@ -1,0 +1,48 @@
+
+.content{
+  font-size: 14pt;
+  margin: 30px auto;
+  padding: 20px;
+  width: 700px;
+  overflow: auto;
+
+
+
+}
+
+option, .block, .mobile{
+  display: block;
+}
+.mobile{
+  display: inline;
+}
+
+.address, .ccard, .ex, .ccv{
+  display: inline-block;
+  height: 90px;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=date] {
+  font-size: 16px;
+  height: 30px;
+  padding: 2px;
+  margin: 4px 8px;
+}
+input[type=submit]{
+  background-color: #2575D2;
+  border: none;
+  padding: 16px 200px;
+  font-size: 12pt;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+}
+
+select.block {
+        height:38px;
+        padding: 2px;
+        margin: 4px 2px;
+        font-size: 16px;
+        width: 181px;
+    }
